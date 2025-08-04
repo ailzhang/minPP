@@ -1,6 +1,6 @@
 # Pipeline Parallelism for Minimalists
 
-Every paper seems to present pipeline schedules in a slightly different setup, which makes it hard to compare them side by side. So I went down the rabbit hole and built a tiny visualizer to explore them in a unified way.
+Every paper seems to present pipeline schedules in a slightly different setup, which makes it hard to compare them side by side. So I went down the rabbit hole and built a tiny executor and visualizer to explore them in a unified way.
 
 It’s a lightweight, CPU-only tool that lets you:
 
