@@ -1,6 +1,6 @@
 # Pipeline Parallelism for Minimalists
 
-Every paper seems to present pipeline schedules in a slightly different setup, which makes it hard to compare them side by side. So I went down the rabbit hole and built a tiny executor and visualizer to explore them in a unified way.
+Every paper seems to present pipeline schedules in a slightly different setup, which makes it hard to compare them side by side. So I went down the rabbit hole and built a tiny simulator to explore them in a unified way.
 
 It’s a lightweight, CPU-only tool that lets you:
 
@@ -33,3 +33,6 @@ https://ailzhang.github.io/posts/pipeline-parallelism-demystified/
 - dualpipev
 ![Dualpipev schedule](./plots/dualpipev.png)
 
+## Bug reports
+
+This repo started as a toy side project without thorough and there will definitely be rough edges. PRs and bug reports are welcome! 
