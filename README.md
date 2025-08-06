@@ -35,4 +35,4 @@ https://ailzhang.github.io/posts/pipeline-parallelism-demystified/
 
 ## Bug reports
 
-This repo started as a toy side project without thorough and there will definitely be rough edges. PRs and bug reports are welcome! 
+This repo started as a toy side project without thorough testing and there will definitely be rough edges. PRs and bug reports are welcome! 
