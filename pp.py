@@ -918,7 +918,7 @@ def main() -> None:
         ),
         PPSchedule.create_interleaved_virtual_pipeline(
             full_model=full_model, pp_size=num_devices, layers_per_stage=1
-        ),
+        ), # looks slightly different than Megatron paper since that one ignores the data transfer time during cool down phase.
         PPSchedule.create_vshape_zb(
             full_model=full_model, pp_size=num_devices, layers_per_stage=1
         ),  # although look slightly different from the one in the paper, both are valid
